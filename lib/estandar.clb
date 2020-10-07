@@ -1,0 +1,13 @@
+<library name="Estandar" version="1.0" autor="David Yuste" srcType="HDL" srcOrigin="estandar">
+
+  <component name="Vcc">
+    <shape>0 0 12 0 17 5 12 10 0 10 0 0</shape>
+    <pin name="Vcc" accessmode="output" alignment="Right"></pin>
+  </component>
+
+  <component name="GND">
+    <shape>0 0 12 0 17 5 12 10 0 10 0 0</shape>
+    <pin name="GND" accessmode="output" alignment="Right" activelevel="low"></pin>
+  </component>
+
+</library>

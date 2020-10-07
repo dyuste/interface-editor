@@ -1,0 +1,22 @@
+<model name="miXOR">
+
+	<device name="A" template="Input" library="I/O" offset="54x46" size="18x11"></device>
+	<device name="And212" template="And2" library="Estandar" offset="396x40" size="91x101"></device>
+	<device name="And213" template="And2" library="Estandar" offset="391x227" size="91x101"></device>
+	<device name="B" template="Input" library="I/O" offset="63x233" size="18x11"></device>
+	<device name="C" template="Output" library="I/O" offset="731x183" size="18x11"></device>
+	<device name="Inv0" template="Inv" library="Estandar" offset="216x20" size="61x61"></device>
+	<device name="Inv4" template="Inv" library="Estandar" offset="221x208" size="61x61"></device>
+	<device name="Or20" template="Or2" library="Estandar" offset="545x138" size="91x101"></device>
+
+	<wireline name="WireLine" leftConnection="A.i" rightConnection="Inv0.I"> 93 51 195 51 195 50 </wireline>
+	<wireline name="WireLine10" leftConnection="B.i" rightConnection="And212.B"> 102 238 145 238 145 129 375 129 </wireline>
+	<wireline name="WireLine12" leftConnection="And212.C" rightConnection="Or20.A"> 508 90 531 90 531 148 </wireline>
+	<wireline name="WireLine13" leftConnection="And213.C" rightConnection="Or20.B"> 503 277 532 277 532 227 </wireline>
+	<wireline name="WireLine14" leftConnection="Or20.C" rightConnection="C.o"> 657 188 710 188 </wireline>
+	<wireline name="WireLine6" leftConnection="Inv0.O" rightConnection="And212.A"> 297 50 375 50 </wireline>
+	<wireline name="WireLine7" leftConnection="B.i" rightConnection="Inv4.I"> 102 238 200 238 </wireline>
+	<wireline name="WireLine8" leftConnection="Inv4.O" rightConnection="And213.A"> 302 238 370 238 370 237 </wireline>
+	<wireline name="WireLine9" leftConnection="A.i" rightConnection="And213.B"> 93 51 120 51 120 316 370 316 </wireline>
+
+</model>

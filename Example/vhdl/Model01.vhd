@@ -1,0 +1,31 @@
+ENTITY Model01 IS
+	PORT( A_I : OUT BIT; B_I : OUT BIT; F_O : IN BIT);
+END Model01;
+
+ARCHITECTURE estructural OF Model01 IS
+	COMPONENT INV
+		PORT( O : OUT BIT; I : IN BIT);
+	END COMPONENT;
+	COMPONENT AND2
+		PORT( C : OUT BIT; I0 : IN BIT; I1 : IN BIT);
+	END COMPONENT;
+	COMPONENT OR2
+		PORT( O : OUT BIT; I0 : IN BIT; I1 : IN BIT);
+	END COMPONENT;
+
+	SIGNAL WireLine13, WireLine16, WireLine17, WireLine19: BIT;
+
+	BEGIN
+		INV7 : INV PORT MAP( );
+
+		INV8 : INV PORT MAP( WireLine16, A_I);
+
+		AND29 : AND2 PORT MAP( WireLine17, A_I, WireLine13);
+
+		AND210 : AND2 PORT MAP( WireLine19, WireLine16, B_I);
+
+		OR211 : OR2 PORT MAP( F_O, WireLine17, WireLine19);
+
+		INV6 : INV PORT MAP( WireLine13, B_I);
+
+END estructural;

@@ -1,0 +1,23 @@
+<model name="Model01">
+
+	<device name="F" template="Output" library="I/O" offset="669x127" size="18x11"></device>
+	<device name="INV6" template="INV" library="Seleccion" offset="159x112" size="41x41"></device>
+	<device name="INV7" template="INV" library="Seleccion" offset="-66x283" size="41x41"></device>
+	<device name="INV8" template="INV" library="Seleccion" offset="156x243" size="41x41"></device>
+	<device name="AND210" template="AND2" library="Seleccion" offset="328x258" size="91x101"></device>
+	<device name="AND29" template="AND2" library="Seleccion" offset="323x37" size="91x101"></device>
+	<device name="OR211" template="OR2" library="Seleccion" offset="508x82" size="91x101"></device>
+	<device name="A" template="Input" library="I/O" offset="29x37" size="18x11"></device>
+	<device name="B" template="Input" library="I/O" offset="28x127" size="18x11"></device>
+
+	<wireline name="WireLine" leftConnection="A.I" rightConnection="AND29.I0" points="67 42 302 42 "></wireline>
+	<wireline name="WireLine12" leftConnection="B.I" rightConnection="INV6.I" points="66 132 138 132 "></wireline>
+	<wireline name="WireLine13" leftConnection="INV6.O" rightConnection="AND29.I1" points="220 132 302 132 "></wireline>
+	<wireline name="WireLine14" leftConnection="A.I" rightConnection="INV8.I" points="67 42 109 42 109 263 135 263 "></wireline>
+	<wireline name="WireLine15" leftConnection="B.I" rightConnection="AND210.I1" points="66 132 66 353 307 353 "></wireline>
+	<wireline name="WireLine16" leftConnection="INV8.O" rightConnection="AND210.I0" points="217 263 307 263 "></wireline>
+	<wireline name="WireLine17" leftConnection="AND29.C" rightConnection="OR211.I0" points="435 87 490 87 "></wireline>
+	<wireline name="WireLine18" leftConnection="OR211.O" rightConnection="F.O" points="619 132 648 132 "></wireline>
+	<wireline name="WireLine19" leftConnection="AND210.C" rightConnection="OR211.I1" points="439 308 490 308 490 177 "></wireline>
+
+</model>

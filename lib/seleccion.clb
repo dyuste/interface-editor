@@ -1,0 +1,175 @@
+<library name="Seleccion" version="1.0" autor="David Yuste" srcType="HDL" srcOrigin="seleccion">
+
+  <component name="NAND2">
+    <shape>0 0 25 1 45 2 55 3 70 7 85 15 90 20 85 25 70 33 55 37 45 38 25 39 0 40 0 0</shape>
+    <pin name="O" accessmode="output" alignment="Right" position="0.5" activelevel="low"></pin>
+
+    <pin name="I0" accessmode="input" alignment="Left"></pin>
+    <pin name="I1" accessmode="input" alignment="Left"></pin>
+  </component> 
+
+  <component name="NAND4">
+    <shape>0 0 25 2 45 3 55 6 70 15 85 30 90 40 85 50 70 66 55 74 45 77 25 78 0 80 0 0</shape>
+    <pin name="O" accessmode="output" alignment="Right" position="0.5" activelevel="low"></pin>
+
+    <pin name="I0" accessmode="input" alignment="Left"></pin>
+    <pin name="I1" accessmode="input" alignment="Left"></pin>
+    <pin name="I2" accessmode="input" alignment="Left"></pin>
+    <pin name="I3" accessmode="input" alignment="Left"></pin>
+  </component> 
+ 
+
+  <component name="NAND8">
+    <shape>0 0 25 3 45 6 55 13 70 29 85 59 90 80 85 101 70 131 55 147 45 154 25 157 0 160 0 0</shape>
+    <pin name="O" accessmode="output" alignment="Right" position="0.5" activelevel="low"></pin>
+
+    <pin name="I0" accessmode="input" alignment="Left"></pin>
+    <pin name="I1" accessmode="input" alignment="Left"></pin>
+    <pin name="I2" accessmode="input" alignment="Left"></pin>
+    <pin name="I3" accessmode="input" alignment="Left"></pin>
+    <pin name="I4" accessmode="input" alignment="Left"></pin>
+    <pin name="I5" accessmode="input" alignment="Left"></pin>
+    <pin name="I6" accessmode="input" alignment="Left"></pin>
+    <pin name="I7" accessmode="input" alignment="Left"></pin>
+  </component>
+
+  <component name="NAND16">
+    <shape>0 0 25 6 45 13 55 25 70 58 85 118 90 160 85 202 70 262 55 294 45 307 25 314 0 320 0 0</shape>
+    <pin name="O" accessmode="output" alignment="Right" position="0.5" activelevel="low"></pin>
+
+    <pin name="I0" accessmode="input" alignment="Left"></pin>
+    <pin name="I1" accessmode="input" alignment="Left"></pin>
+    <pin name="I2" accessmode="input" alignment="Left"></pin>
+    <pin name="I3" accessmode="input" alignment="Left"></pin>
+    <pin name="I4" accessmode="input" alignment="Left"></pin>
+    <pin name="I5" accessmode="input" alignment="Left"></pin>
+    <pin name="I6" accessmode="input" alignment="Left"></pin>
+    <pin name="I7" accessmode="input" alignment="Left"></pin>
+    <pin name="I8" accessmode="input" alignment="Left"></pin>
+    <pin name="I9" accessmode="input" alignment="Left"></pin>
+    <pin name="I10" accessmode="input" alignment="Left"></pin>
+    <pin name="I11" accessmode="input" alignment="Left"></pin>
+    <pin name="I12" accessmode="input" alignment="Left"></pin>
+    <pin name="I13" accessmode="input" alignment="Left"></pin>
+    <pin name="I14" accessmode="input" alignment="Left"></pin>
+    <pin name="I15" accessmode="input" alignment="Left"></pin>
+  </component>
+
+  <component name="OR2">
+    <shape>0 0 40 10 60 20 80 37 90 50 80 63 60 80 40 90 0 100 15 80 20 60 20 40 15 20 0 0</shape>
+    <pin name="O" accessmode="output" alignment="Right"></pin>
+
+    <pin name="I0" accessmode="input" alignment="Left"></pin>
+    <pin name="I1" accessmode="input" alignment="Left"></pin>
+  </component>
+
+  <component name="OR3">
+    <shape>0 0 40 10 60 20 80 37 90 50 80 63 60 80 40 90 0 100 15 80 20 60 20 40 15 20 0 0</shape>
+    <pin name="O" accessmode="output" alignment="Right"></pin>
+
+    <pin name="I0" accessmode="input" alignment="Left"></pin>
+    <pin name="I1" accessmode="input" alignment="Left"></pin>
+    <pin name="I2" accessmode="input" alignment="Left"></pin>
+  </component>
+
+  <component name="OR4">
+    <shape>0 0 40 10 60 20 80 37 90 50 80 63 60 80 40 90 0 100 15 80 20 60 20 40 15 20 0 0</shape>
+    <pin name="O" accessmode="output" alignment="Right"></pin>
+
+    <pin name="I0" accessmode="input" alignment="Left"></pin>
+    <pin name="I1" accessmode="input" alignment="Left"></pin>
+    <pin name="I2" accessmode="input" alignment="Left"></pin>
+    <pin name="I3" accessmode="input" alignment="Left"></pin>
+  </component>
+
+  <component name="OR5">
+    <shape>0 0 40 10 60 20 80 37 90 50 80 63 60 80 40 90 0 100 15 80 20 60 20 40 15 20 0 0</shape>
+    <pin name="O" accessmode="output" alignment="Right"></pin>
+
+    <pin name="I0" accessmode="input" alignment="Left"></pin>
+    <pin name="I1" accessmode="input" alignment="Left"></pin>
+    <pin name="I2" accessmode="input" alignment="Left"></pin>
+    <pin name="I3" accessmode="input" alignment="Left"></pin>
+    <pin name="I4" accessmode="input" alignment="Left"></pin>
+  </component>
+
+  <component name="AND2">
+    <shape>0 0 40 10 60 20 80 37 90 50 80 63 60 80 40 90 0 100 0 0</shape>
+    <pin name="C" accessmode="output" alignment="Right"></pin>
+
+    <pin name="I0" accessmode="input" alignment="Left"></pin>
+    <pin name="I1" accessmode="input" alignment="Left"></pin>
+  </component>  
+
+  <component name="INV">
+    <shape>0 0 40 20 0 40 0 0</shape>
+    <pin name="O" accessmode="output" alignment="Right" activelevel="low"></pin>
+
+    <pin name="I" accessmode="input" alignment="Left"></pin>
+  </component>
+
+  <component name="MUX1">
+    <shape>0 0 120 0 120 260 0 260 0 0</shape>
+    <pin name="E*" accessmode="input" alignment="Top" activelevel="low"></pin>
+    <pin name="O0" accessmode="output" alignment="Right"></pin>
+    <pin name="O1" accessmode="output" alignment="Right"></pin>
+
+    <pin name="I0" accessmode="input" alignment="Left" position="0.5"></pin>
+  </component>
+
+  <component name="MUX2">
+    <shape>0 0 120 0 120 260 0 260 0 0</shape>
+    <pin name="E*" accessmode="input" alignment="Top" activelevel="low"></pin>
+    <pin name="O0" accessmode="output" alignment="Right"></pin>
+    <pin name="O1" accessmode="output" alignment="Right"></pin>
+    <pin name="O2" accessmode="output" alignment="Right"></pin>
+    <pin name="O3" accessmode="output" alignment="Right"></pin>
+
+    <pin name="I0" accessmode="input" alignment="Left" position="0.33"></pin>
+    <pin name="I1" accessmode="input" alignment="Left" position="0.66"></pin>
+  </component>
+
+
+  <component name="MUX3">
+    <shape>0 0 120 0 120 260 0 260 0 0</shape>
+    <pin name="E*" accessmode="input" alignment="Top" activelevel="low"></pin>
+    <pin name="O0" accessmode="output" alignment="Right"></pin>
+    <pin name="O1" accessmode="output" alignment="Right"></pin>
+    <pin name="O2" accessmode="output" alignment="Right"></pin>
+    <pin name="O3" accessmode="output" alignment="Right"></pin>
+    <pin name="O4" accessmode="output" alignment="Right"></pin>
+    <pin name="O5" accessmode="output" alignment="Right"></pin>
+    <pin name="O6" accessmode="output" alignment="Right"></pin>
+    <pin name="O7" accessmode="output" alignment="Right"></pin>
+
+    <pin name="I0" accessmode="input" alignment="Left" position="0.25"></pin>
+    <pin name="I1" accessmode="input" alignment="Left" position="0.5"></pin>
+    <pin name="I2" accessmode="input" alignment="Left" position="0.75"></pin>
+  </component>
+
+  <component name="MUX4">
+    <shape>0 0 120 0 120 260 0 260 0 0</shape>
+    <pin name="E*" accessmode="input" alignment="Top" activelevel="low"></pin>
+    <pin name="O0" accessmode="output" alignment="Right"></pin>
+    <pin name="O1" accessmode="output" alignment="Right"></pin>
+    <pin name="O2" accessmode="output" alignment="Right"></pin>
+    <pin name="O3" accessmode="output" alignment="Right"></pin>
+    <pin name="O4" accessmode="output" alignment="Right"></pin>
+    <pin name="O5" accessmode="output" alignment="Right"></pin>
+    <pin name="O6" accessmode="output" alignment="Right"></pin>
+    <pin name="O7" accessmode="output" alignment="Right"></pin>
+    <pin name="O8" accessmode="output" alignment="Right"></pin>
+    <pin name="O9" accessmode="output" alignment="Right"></pin>
+    <pin name="O10" accessmode="output" alignment="Right"></pin>
+    <pin name="O11" accessmode="output" alignment="Right"></pin>
+    <pin name="O12" accessmode="output" alignment="Right"></pin>
+    <pin name="O13" accessmode="output" alignment="Right"></pin>
+    <pin name="O14" accessmode="output" alignment="Right"></pin>
+    <pin name="O15" accessmode="output" alignment="Right"></pin>
+
+    <pin name="I0" accessmode="input" alignment="Left" position="0.2"></pin>
+    <pin name="I1" accessmode="input" alignment="Left" position="0.4"></pin>
+    <pin name="I2" accessmode="input" alignment="Left" position="0.6"></pin>
+    <pin name="I3" accessmode="input" alignment="Left" position="0.8"></pin>
+  </component>
+</library>

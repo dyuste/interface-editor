@@ -1,0 +1,50 @@
+<library name="Datos" version="1.0" autor="David Yuste" srcType="HDL" srcOrigin="datos">
+
+  <component name="Registro8bits">
+    <shape>0 0 260 0 260 120 0 120 0 0</shape>
+    <pin name="I7" accessmode="input" alignment="Top"></pin>
+    <pin name="I6" accessmode="input" alignment="Top"></pin>
+    <pin name="I5" accessmode="input" alignment="Top"></pin>
+    <pin name="I4" accessmode="input" alignment="Top"></pin>
+    <pin name="I3" accessmode="input" alignment="Top"></pin>
+    <pin name="I2" accessmode="input" alignment="Top"></pin>
+    <pin name="I1" accessmode="input" alignment="Top"></pin>
+    <pin name="I0" accessmode="input" alignment="Top"></pin>
+
+    <pin name="O7" accessmode="output" alignment="Bottom"></pin>
+    <pin name="O6" accessmode="output" alignment="Bottom"></pin>
+    <pin name="O5" accessmode="output" alignment="Bottom"></pin>
+    <pin name="O4" accessmode="output" alignment="Bottom"></pin>
+    <pin name="O3" accessmode="output" alignment="Bottom"></pin>
+    <pin name="O2" accessmode="output" alignment="Bottom"></pin>
+    <pin name="O1" accessmode="output" alignment="Bottom"></pin>
+    <pin name="O0" accessmode="output" alignment="Bottom"></pin>
+
+    <pin name="CLK" accessmode="input" alignment="Left" position="0.4"></pin>
+  </component>
+
+  <component name="Buffer8bits">
+    <shape>0 0 260 0 260 120 0 120 0 0</shape>
+    <pin name="I7" accessmode="input" alignment="Bottom"></pin>
+    <pin name="I6" accessmode="input" alignment="Bottom"></pin>
+    <pin name="I5" accessmode="input" alignment="Bottom"></pin>
+    <pin name="I4" accessmode="input" alignment="Bottom"></pin>
+    <pin name="I3" accessmode="input" alignment="Bottom"></pin>
+    <pin name="I2" accessmode="input" alignment="Bottom"></pin>
+    <pin name="I1" accessmode="input" alignment="Bottom"></pin>
+    <pin name="I0" accessmode="input" alignment="Bottom"></pin>
+
+    <pin name="O7" accessmode="output" alignment="Top"></pin>
+    <pin name="O6" accessmode="output" alignment="Top"></pin>
+    <pin name="O5" accessmode="output" alignment="Top"></pin>
+    <pin name="O4" accessmode="output" alignment="Top"></pin>
+    <pin name="O3" accessmode="output" alignment="Top"></pin>
+    <pin name="O2" accessmode="output" alignment="Top"></pin>
+    <pin name="O1" accessmode="output" alignment="Top"></pin>
+    <pin name="O0" accessmode="output" alignment="Top"></pin>
+
+    <pin name="OE" accessmode="input" alignment="Left" position="0.4" activelevel="low"></pin>
+  </component>
+
+
+</library>
